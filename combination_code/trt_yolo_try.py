@@ -244,7 +244,7 @@ def loop_and_detect(cam, trt_yolo, conf_th, vis):
 
 
 def main():
-    galob flag = 0
+    global flag = 0
     args, vehicle = parse_args()
     # Add message listener
     vehicle.add_message_listener('HEARTBEAT', my_method)
