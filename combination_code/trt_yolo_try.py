@@ -150,7 +150,6 @@ def loop_and_detect(cam, trt_yolo, conf_th, vis):
       conf_th: confidence/score threshold for object detection.
       vis: for visualization.
     """
-    flag = 0
     full_scrn = False
     fps = 0.0
     tic = time.time()
@@ -245,6 +244,7 @@ def loop_and_detect(cam, trt_yolo, conf_th, vis):
 
 
 def main():
+    galob flag = 0
     args, vehicle = parse_args()
     # Add message listener
     vehicle.add_message_listener('HEARTBEAT', my_method)
