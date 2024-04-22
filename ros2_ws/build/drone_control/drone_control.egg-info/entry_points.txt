@@ -1,0 +1,2 @@
+[console_scripts]
+flight_control_node = drone_control.flight_control:main

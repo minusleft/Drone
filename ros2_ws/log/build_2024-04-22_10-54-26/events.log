@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.000834] (drone_control) JobQueued: {'identifier': 'drone_control', 'dependencies': OrderedDict()}
+[0.001524] (drone_control) JobStarted: {'identifier': 'drone_control'}
+[0.099169] (-) TimerEvent: {}
+[0.199962] (-) TimerEvent: {}
+[0.300517] (-) TimerEvent: {}
+[0.401066] (-) TimerEvent: {}
+[0.501614] (-) TimerEvent: {}
+[0.602158] (-) TimerEvent: {}
+[0.702716] (-) TimerEvent: {}
+[0.803619] (-) TimerEvent: {}
+[0.904331] (-) TimerEvent: {}
+[1.005084] (-) TimerEvent: {}
+[1.105792] (-) TimerEvent: {}
+[1.206501] (-) TimerEvent: {}
+[1.307098] (-) TimerEvent: {}
+[1.407766] (-) TimerEvent: {}
+[1.508390] (-) TimerEvent: {}
+[1.608986] (-) TimerEvent: {}
+[1.709558] (-) TimerEvent: {}
+[1.810182] (-) TimerEvent: {}
+[1.911087] (-) TimerEvent: {}
+[2.011754] (-) TimerEvent: {}
+[2.112298] (-) TimerEvent: {}
+[2.212893] (-) TimerEvent: {}
+[2.313672] (-) TimerEvent: {}
+[2.414483] (-) TimerEvent: {}
+[2.515296] (-) TimerEvent: {}
+[2.615824] (-) TimerEvent: {}
+[2.716366] (-) TimerEvent: {}
+[2.816929] (-) TimerEvent: {}
+[2.917533] (-) TimerEvent: {}
+[3.018065] (-) TimerEvent: {}
+[3.118744] (-) TimerEvent: {}
+[3.203250] (drone_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/drone_control', 'build', '--build-base', '/home/jetson/ros2_ws/build/drone_control/build', 'install', '--record', '/home/jetson/ros2_ws/build/drone_control/install.log', '--install-scripts', '$base/lib/drone_control', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/ros2_ws/src/drone_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'jetson', 'LC_TIME': 'en_US.UTF-8', 'SSH_AGENT_PID': '7457', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda-10.2/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/ros2_ws/src/drone_control', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'courseRoot': '/home/jetson/courseRoot', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '7163', 'LC_CTYPE': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jetson/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JOURNAL_STREAM': '8:62212', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'LC_COLLATE': 'en_US.UTF-8', 'PATH': '/usr/local/cuda-10.2/bin:/home/jetson/courseRoot/apm/ardupilot/Tools/autotest:/opt/ros/foxy/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/nano:@/tmp/.ICE-unix/7525,unix/nano:/tmp/.ICE-unix/7525', 'INVOCATION_ID': 'aa7f7891d57046258560f8c2650a3ffa', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6027d088_e726_4f2f_a52e_aa886bd37393', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jetson/ros2_ws/install/drone_control:/opt/ros/foxy', 'LC_MESSAGES': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jetson/ros2_ws/build/drone_control', 'LC_ALL': '', 'CUDA_HOME': '/usr/local/cuda-10.2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ros2_ws/build/drone_control/prefix_override:/home/jetson/ros2_ws/install/drone_control/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/drone_control/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'apm': '/home/jetson/courseRoot/apm', 'VTE_VERSION': '6003'}, 'shell': False}
+[3.219176] (-) TimerEvent: {}
+[3.320453] (-) TimerEvent: {}
+[3.421003] (-) TimerEvent: {}
+[3.521566] (-) TimerEvent: {}
+[3.622104] (-) TimerEvent: {}
+[3.686747] (drone_control) StderrLine: {'line': b'/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:498: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[3.687552] (drone_control) StderrLine: {'line': b'!!\n'}
+[3.687974] (drone_control) StderrLine: {'line': b'\n'}
+[3.688394] (drone_control) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.688765] (drone_control) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[3.689040] (drone_control) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[3.689301] (drone_control) StderrLine: {'line': b'\n'}
+[3.689614] (drone_control) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[3.689908] (drone_control) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[3.690187] (drone_control) StderrLine: {'line': b'\n'}
+[3.690452] (drone_control) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[3.690707] (drone_control) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.691013] (drone_control) StderrLine: {'line': b'\n'}
+[3.691335] (drone_control) StderrLine: {'line': b'!!\n'}
+[3.691614] (drone_control) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[3.722408] (-) TimerEvent: {}
+[3.823006] (-) TimerEvent: {}
+[3.923555] (-) TimerEvent: {}
+[4.024190] (-) TimerEvent: {}
+[4.124732] (-) TimerEvent: {}
+[4.175538] (drone_control) StdoutLine: {'line': b'running egg_info\n'}
+[4.224891] (-) TimerEvent: {}
+[4.251540] (drone_control) StdoutLine: {'line': b'writing ../../build/drone_control/drone_control.egg-info/PKG-INFO\n'}
+[4.253173] (drone_control) StdoutLine: {'line': b'writing dependency_links to ../../build/drone_control/drone_control.egg-info/dependency_links.txt\n'}
+[4.254376] (drone_control) StdoutLine: {'line': b'writing entry points to ../../build/drone_control/drone_control.egg-info/entry_points.txt\n'}
+[4.255097] (drone_control) StdoutLine: {'line': b'writing requirements to ../../build/drone_control/drone_control.egg-info/requires.txt\n'}
+[4.255566] (drone_control) StdoutLine: {'line': b'writing top-level names to ../../build/drone_control/drone_control.egg-info/top_level.txt\n'}
+[4.326266] (-) TimerEvent: {}
+[4.426864] (-) TimerEvent: {}
+[4.527487] (-) TimerEvent: {}
+[4.628054] (-) TimerEvent: {}
+[4.728703] (-) TimerEvent: {}
+[4.765266] (drone_control) StdoutLine: {'line': b"reading manifest file '../../build/drone_control/drone_control.egg-info/SOURCES.txt'\n"}
+[4.768471] (drone_control) StdoutLine: {'line': b"writing manifest file '../../build/drone_control/drone_control.egg-info/SOURCES.txt'\n"}
+[4.769882] (drone_control) StdoutLine: {'line': b'running build\n'}
+[4.770247] (drone_control) StdoutLine: {'line': b'running build_py\n'}
+[4.770629] (drone_control) StdoutLine: {'line': b'running install\n'}
+[4.795200] (drone_control) StdoutLine: {'line': b'running install_lib\n'}
+[4.828849] (-) TimerEvent: {}
+[4.862056] (drone_control) StdoutLine: {'line': b'running install_data\n'}
+[4.862801] (drone_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.929088] (-) TimerEvent: {}
+[4.932349] (drone_control) StdoutLine: {'line': b"removing '/home/jetson/ros2_ws/install/drone_control/lib/python3.8/site-packages/drone_control-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.933260] (drone_control) StdoutLine: {'line': b'Copying ../../build/drone_control/drone_control.egg-info to /home/jetson/ros2_ws/install/drone_control/lib/python3.8/site-packages/drone_control-0.0.0-py3.8.egg-info\n'}
+[4.936102] (drone_control) StdoutLine: {'line': b'running install_scripts\n'}
+[5.029269] (-) TimerEvent: {}
+[5.121910] (drone_control) StdoutLine: {'line': b'Installing flight_control_node script to /home/jetson/ros2_ws/install/drone_control/lib/drone_control\n'}
+[5.123008] (drone_control) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ros2_ws/build/drone_control/install.log'\n"}
+[5.129449] (-) TimerEvent: {}
+[5.230100] (-) TimerEvent: {}
+[5.246090] (drone_control) CommandEnded: {'returncode': 0}
+[5.292268] (drone_control) JobEnded: {'identifier': 'drone_control', 'rc': 0}
+[5.294422] (-) EventReactorShutdown: {}

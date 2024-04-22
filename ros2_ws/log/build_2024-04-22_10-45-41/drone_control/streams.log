@@ -1,0 +1,50 @@
+[3.830s] Invoking command in '/home/jetson/ros2_ws/src/drone_control': PYTHONPATH=/home/jetson/ros2_ws/build/drone_control/prefix_override:/home/jetson/ros2_ws/install/drone_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/drone_control build --build-base /home/jetson/ros2_ws/build/drone_control/build install --record /home/jetson/ros2_ws/build/drone_control/install.log --install-scripts $base/lib/drone_control --single-version-externally-managed install_data
+[4.356s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:498: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[4.357s] !!
+[4.357s] 
+[4.358s]         ********************************************************************************
+[4.358s]         Usage of dash-separated 'script-dir' will not be supported in future
+[4.359s]         versions. Please use the underscore name 'script_dir' instead.
+[4.359s] 
+[4.359s]         This deprecation is overdue, please update your project and remove deprecated
+[4.360s]         calls to avoid build errors in the future.
+[4.360s] 
+[4.360s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[4.361s]         ********************************************************************************
+[4.361s] 
+[4.361s] !!
+[4.362s]   opt = self.warn_dash_deprecation(opt, section)
+[4.869s] running egg_info
+[4.870s] creating ../../build/drone_control/drone_control.egg-info
+[4.937s] writing ../../build/drone_control/drone_control.egg-info/PKG-INFO
+[4.939s] writing dependency_links to ../../build/drone_control/drone_control.egg-info/dependency_links.txt
+[4.940s] writing requirements to ../../build/drone_control/drone_control.egg-info/requires.txt
+[4.940s] writing top-level names to ../../build/drone_control/drone_control.egg-info/top_level.txt
+[5.360s] writing manifest file '../../build/drone_control/drone_control.egg-info/SOURCES.txt'
+[5.504s] reading manifest file '../../build/drone_control/drone_control.egg-info/SOURCES.txt'
+[5.508s] writing manifest file '../../build/drone_control/drone_control.egg-info/SOURCES.txt'
+[5.509s] running build
+[5.510s] running build_py
+[5.510s] creating /home/jetson/ros2_ws/build/drone_control/build
+[5.511s] creating /home/jetson/ros2_ws/build/drone_control/build/lib
+[5.511s] creating /home/jetson/ros2_ws/build/drone_control/build/lib/drone_control
+[5.511s] copying drone_control/__init__.py -> /home/jetson/ros2_ws/build/drone_control/build/lib/drone_control
+[5.512s] copying drone_control/flight_control.py -> /home/jetson/ros2_ws/build/drone_control/build/lib/drone_control
+[5.512s] running install
+[5.536s] running install_lib
+[5.604s] creating /home/jetson/ros2_ws/install/drone_control/lib/python3.8/site-packages/drone_control
+[5.605s] copying /home/jetson/ros2_ws/build/drone_control/build/lib/drone_control/__init__.py -> /home/jetson/ros2_ws/install/drone_control/lib/python3.8/site-packages/drone_control
+[5.606s] copying /home/jetson/ros2_ws/build/drone_control/build/lib/drone_control/flight_control.py -> /home/jetson/ros2_ws/install/drone_control/lib/python3.8/site-packages/drone_control
+[5.608s] byte-compiling /home/jetson/ros2_ws/install/drone_control/lib/python3.8/site-packages/drone_control/__init__.py to __init__.cpython-38.pyc
+[5.609s] byte-compiling /home/jetson/ros2_ws/install/drone_control/lib/python3.8/site-packages/drone_control/flight_control.py to flight_control.cpython-38.pyc
+[5.611s] running install_data
+[5.612s] creating /home/jetson/ros2_ws/install/drone_control/share/ament_index
+[5.612s] creating /home/jetson/ros2_ws/install/drone_control/share/ament_index/resource_index
+[5.613s] creating /home/jetson/ros2_ws/install/drone_control/share/ament_index/resource_index/packages
+[5.613s] copying resource/drone_control -> /home/jetson/ros2_ws/install/drone_control/share/ament_index/resource_index/packages
+[5.613s] copying package.xml -> /home/jetson/ros2_ws/install/drone_control/share/drone_control
+[5.614s] running install_egg_info
+[5.684s] Copying ../../build/drone_control/drone_control.egg-info to /home/jetson/ros2_ws/install/drone_control/lib/python3.8/site-packages/drone_control-0.0.0-py3.8.egg-info
+[5.687s] running install_scripts
+[5.883s] writing list of installed files to '/home/jetson/ros2_ws/build/drone_control/install.log'
+[6.008s] Invoked command in '/home/jetson/ros2_ws/src/drone_control' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/drone_control/prefix_override:/home/jetson/ros2_ws/install/drone_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/drone_control build --build-base /home/jetson/ros2_ws/build/drone_control/build install --record /home/jetson/ros2_ws/build/drone_control/install.log --install-scripts $base/lib/drone_control --single-version-externally-managed install_data
